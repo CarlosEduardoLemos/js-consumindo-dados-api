@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +13,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Formulário de cadastro</title>
 </head>
-
 <body>
-
     <header class="cabeçalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
@@ -44,14 +41,12 @@
             <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
             <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
-
         <ul class="opções">
             <input type="checkbox" id="opções-menu" class="opções__botão">
             <li class="opções__item"><a href="#" class="opções__link">Categorias</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
         </ul>
-
         <div class="container">
             <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
                     class="container__imagem container__imagem-transparente"></a>
@@ -65,14 +60,11 @@
             </a>
         </div>
     </header>
-
     <section class="banner">
         <h2 class="banner__titulo">Tela de cadastro</h2>
     </section>
-
     <main class="principal">
         <h2 class="principal__titulo">Dados do cadastro</h2>
-
         <form class="principal__formulario" id="formulario" target="_blank"
             onsubmit="location.replace('./cadastro-finalizado.html')">
             <h3 class="principal__subtitulo">Dados pessoais</h3>
@@ -95,14 +87,12 @@
                 <label class="campo__etiqueta" for="email">E-mail</label>
                 <input name="email" id="email" type="email" class="campo__escrita" required />
             </div>
-
             <h3 class="principal__subtitulo">Endereço</h3>
-
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="cep">CEP</label>
                 <input name="cep" id="cep" class="campo__escrita" required />
+                <div id="erro"></div>
             </div>
-
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="endereco">Endereço</label>
                 <input name="endereco" id="endereco" class="campo__escrita" required />
@@ -126,7 +116,6 @@
                     <label class="campo__etiqueta" for="cidade">Cidade</label>
                     <input name="cidade" id="cidade" class="campo__escrita" required />
                 </div>
-
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="estado">UF</label>
                     <select id="estado" name="estado" class="campo__escrita">
@@ -160,14 +149,10 @@
                         <option value="EX">Estrangeiro</option>
                     </select>
                 </div>
-
             </div>
-
-
             <input type="submit" value="Enviar formulário" class="formulario__botao" id="enviar">
         </form>
     </main>
-
     <hr>
     <footer class="rodapé">
         <h2 class="rodapé__titulo">Grupo Alura</h2>
@@ -248,8 +233,6 @@
             </li>
         </ul>
     </footer>
-
     <script src="script.js"></script>
 </body>
-
 </html>
