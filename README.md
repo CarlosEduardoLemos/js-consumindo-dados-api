@@ -1,6 +1,6 @@
 # Consumo de API e Tratamento de Dados
 
-Este é o README para o projeto de Consumo de API e Tratamento de Dados, uma aplicação que consome uma API externa e realiza o tratamento dos dados retornados por meio dela.
+O projeto de Consumo de API e Tratamento de Dados, é uma aplicação que consome uma API externa e realiza o tratamento dos dados retornados por meio dela.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
